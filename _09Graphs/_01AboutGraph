@@ -1,0 +1,16 @@
+Question--> What is Graph?
+Answer--> A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links.
+		  The interconnected objects are represented by points termed as vertices, 
+		  and the links that connect the vertices are called edges.
+		  
+-->	Graph Data Structure
+	Mathematical graphs can be represented in data structure. We can represent a graph using an array of 
+	vertices and a two-dimensional array of edges. 
+	
+	
+ some important terms −
+
+-->Vertex − Each node of the graph is represented as a vertex. 
+-->Edge − Edge represents a path between two vertices or a line between two vertices. 
+-->Adjacency − Two node or vertices are adjacent if they are connected to each other through an edge.
+-->Path − Path represents a sequence of edges between the two vertices. 

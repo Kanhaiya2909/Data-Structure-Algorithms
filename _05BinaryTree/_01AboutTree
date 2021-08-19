@@ -1,0 +1,67 @@
+Question--> What is Tree?
+Answer-->  A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are 
+           connected by edges. A tree has the following properties:
+
+        1) The tree has one node called root. The tree originates from this, and hence it does not have any parent.
+        2) Each node has one parent only but can have multiple children.
+        3) Each node is connected to its children via edge.
+        
+        
+  Terminology						Description
+===============                  =============================
+   Root	              Root is a special node in a tree. The entire tree originates from it. It does not have a parent.
+  --------------------------------------------------------------------------------------------
+   Parent Node	      Parent node is an immediate predecessor of a node.	
+  -------------------------------------------------------------------------------------------- 
+   Child Node	      All immediate successors of a node are its children.
+  --------------------------------------------------------------------------------------------
+   Leaf	              Node which does not have any child is called as leaf	
+  --------------------------------------------------------------------------------------------    
+   Edge	              Edge is a connection between one node to another. It is a line between two nodes or a node and a leaf.	
+  ----------------------------------------------------------------------------------------------------------------------------  
+   Siblings	          Nodes with the same parent are called Siblings.	
+  --------------------------------------------------------------------------------------------------------------------
+   Path/Traversing    Path is a number of successive edges from source node to destination node.	 
+  ----------------------------------------------------------------------------------------------------------------------
+  Height of Node	  Height of a node represents the number of edges on the longest path between that node and a leaf.	
+  -----------------------------------------------------------------------------------------------------------------------
+  Levels of node	  Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandChild is at level 2, and so on
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+  Degree of Node	  Degree of a node represents the number of children of a node.	
+  --------------------------------------------------------------------------------------
+   Sub tree	          Descendants of a node represent subtree. 
+  ----------------------------------------------------------------------------
+  
+  
+  Types of Trees
+ ======================
+Types of trees depend on the number of children a node has. There are two major tree types:
+
+--> General Tree:
+       A tree in which there is no restriction on the number of children a node has, is called a General tree.
+        Examples are Family tree, Folder Structure.
+
+--> Binary Tree:
+		 In a Binary tree, every node can have at most 2 children, left and right. 
+		  
+  Binary trees are further divided into many types based on its application. 
+  ===================================================================
+
+--> Full Binary Tree: 
+				If every node in a tree has either 0 or 2 children, then the tree is called a full tree. 
+--> Perfect Binary tree:
+				 It is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+
+
+
+--> Balanced Tree:
+				 If the height of the left and right subtree at any node differs at most by 1, then the tree is called a balanced tree.
+
+--> Binary Search Tree:
+                 It is a binary tree with binary search property. Binary search property states that the value or key 
+                 of the left node is less than its parent and value or key of right node is greater than its parent. 
+                 And this is true for all nodes.
+Binary search trees are used in various searching and sorting algorithms. There are many variants
+    of binary search trees like AVL tree, B-Tree, Red-black tree, etc.
+  
+  

@@ -1,0 +1,40 @@
+Question--> What is Hashing?
+Answer-->  Hashing is the process of mapping large amount of data item to smaller table with the help of hashing function.
+	   --> Hashing is also known as Hashing Algorithm or Message Digest Function.
+	   --> It is a technique to convert a range of key values into a range of indexes of an array.
+	   --> It is used to facilitate the next level searching method when compared with the linear or binary search.
+	   --> Hashing allows to update and retrieve any data entry in a constant time O(1).
+	   --> Constant time O(1) means the operation does not depend on the size of the data.
+	   --> Hashing is used with a database to enable items to be retrieved more quickly.
+	   --> It is used in the encryption and decryption of digital signatures.
+
+--> What is Hash Function?
+--> A fixed process converts a key to a hash key is known as a Hash Function.
+   This function takes a key and maps it to a value of a certain length which is called a Hash value or Hash.
+   Hash value represents the original string of characters, but it is normally smaller than the original.
+   It transfers the digital signature and then both hash value and signature are sent to the receiver. Receiver uses the same hash function to generate the hash value and then compares it to that received with the message.
+   If the hash values are same, the message is transmitted without errors.
+   
+--> What is Hash Table?
+    Hash table or hash map is a data structure used to store key-value pairs.
+	It is a collection of items stored to make it easy to find them later.
+	It uses a hash function to compute an index into an array of buckets or slots from which the desired value can be found.
+	It is an array of list where each list is known as bucket.
+	It contains value based on the key.
+	Hash table is used to implement the map interface and extends Dictionary class.
+	Hash table is synchronized and contains only unique elements.
+
+
+Hash Key = Key Value % Number of Slots in the Table
+
+Division method or reminder method takes an item and divides it by the table size and returns the remainder as its hash value.
+
+Data Item	Value % No. of Slots	Hash Value
+	26	     26 % 10 = 6	           6
+	70	     70 % 10 = 0	           0
+	18	     18 % 10 = 8	           8
+	31	     31 % 10 = 1	           1
+	54	     54 % 10 = 4	           4
+	93	     93 % 10 = 3	           3
+
+	

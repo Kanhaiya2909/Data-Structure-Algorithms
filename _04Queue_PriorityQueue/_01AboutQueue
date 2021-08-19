@@ -1,0 +1,10 @@
+Question--> What is Queue?
+Answer-->  A queue is a linear list of elements in which deletion of an element can take place only at 
+		   one end called the front and insertion can take place on the other end which is termed as the rear. 
+		   The term front and rear are frequently used while describing queues in a linked list.
+		   
+	  -->  the first element to be inserted in the queue will be the first element to be deleted or removed from the list. 
+	       So Queue is said to follow the FIFO (First In First Out) structure. 
+	       A real-life scenario in the form of example for queue will be the queue of people waiting to accomplish a particular task
+	       where the first person in the queue is the first person to be served first.
+	

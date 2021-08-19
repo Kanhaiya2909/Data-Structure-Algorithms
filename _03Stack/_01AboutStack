@@ -1,0 +1,17 @@
+Question--> What is Stack?
+Answer--> A stack is an abstract data type that holds an ordered, linear sequence of items. In contrast to a queue,
+          a stack is a last in, first out (LIFO) structure.
+          A real-life example is a stack of plates: you can only take a plate from the top of the stack, 
+          and you can only add a plate to the top of the stack. If you want to reach a plate that is not on the top of
+          the stack, you need to remove all of the plates that are above that one. 
+          In the same way, in a stack data structure, you can only access the element on the top of the stack. 
+          The element that was added last will be the one to be removed first. Therefore, to implement a stack,
+           you need to maintain a pointer to the top of the stack (the last element to be added).
+
+The main stack operations are:
+
+--> push(data)	adds an element to the top of the stack
+--> pop()	removes an element from the top of the stack
+--> peek()	returns a copy of the element on the top of the stack without removing it
+--> is_empty()	checks whether a stack is empty
+--> is_full()	checks whether a stack is at maximum capacity when stored in a static (fixed-size) structure
